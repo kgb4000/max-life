@@ -105,7 +105,7 @@ export default function Home() {
               <p>Kester</p>
             </div>
             <div className="btn">
-              <Button as="a" href={reviews}>
+              <Button as="a" href={reviews} target="_blank">
                 More Reviews on Google!
               </Button>
             </div>
