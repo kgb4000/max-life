@@ -12,7 +12,7 @@ export default function Footer() {
             <p>Have a question about a service?</p>
             <p>Just want to say what&apos;s up?</p>
             <p>
-              Call us at <a href="{phoneNumber}">{phone}</a>
+              Call us at <a href={phoneNumber}>{phone}</a>
             </p>
             <p>Visit us at:</p>
             <address>
