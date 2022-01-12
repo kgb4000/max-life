@@ -2,7 +2,8 @@ import styled from 'styled-components'
 import Button from '../components/button'
 
 export default function Hero() {
-  const phoneNumber = '2407488286'
+  const phone = '(240) 748-8286'
+  const phoneNumber = 'tel:2407488286'
 
   return (
     <HeroBox>
@@ -11,8 +12,8 @@ export default function Hero() {
         <h1>Best Barbershop Tacoma Park MD</h1>
         <p>Walkin&apos;s Welcome</p>
         <p>First Come | First Serve</p>
-        <a className="btn" href="tel:{phoneNumber}">
-          <HeroButton>Call (301) 333-5597</HeroButton>
+        <a className="btn" href={phoneNumber}>
+          <HeroButton>Call {phone}</HeroButton>
         </a>
       </div>
     </HeroBox>
