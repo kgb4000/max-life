@@ -61,7 +61,7 @@ export default function Home() {
             </div>
             <div className="btn">
               <Button as="a" href={phoneNumber}>
-                Make an Appointment!
+                Call to Make an Appointment!
               </Button>
             </div>
           </div>
