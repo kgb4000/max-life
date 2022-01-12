@@ -10,8 +10,7 @@ export default function Hero() {
       <div className="container">
         <h1 className="name">Max Life Barbershop</h1>
         <h1>Best Barbershop Tacoma Park MD</h1>
-        <p>Walkin&apos;s Welcome</p>
-        <p>First Come | First Serve</p>
+        <p>Walk In&apos;s Welcome</p>
         <a className="btn" href={phoneNumber}>
           <HeroButton>Call {phone}</HeroButton>
         </a>
