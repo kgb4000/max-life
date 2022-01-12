@@ -31,7 +31,7 @@ const HeroBox = styled.div`
     url(../images/max-life-barbershop.jpg);
   background-position: center;
   background-size: cover;
-  height: 50rem;
+  height: 40rem;
   color: #fff;
   text-align: center;
 
