@@ -6,6 +6,14 @@ export default function Footer() {
   return (
     <>
       <FooterSection>
+        <div className="ontainer">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12407.442355396792!2d-76.9948285!3d38.9728512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1d0fa60bbce1688!2sMax%20Life%20Barbershop%20%26%20Salon!5e0!3m2!1sen!2sus!4v1641959135634!5m2!1sen!2sus"
+            width="100%"
+            height="450"
+            loading="lazy"
+          ></iframe>
+        </div>
         <div className=" footer container">
           <div className="contact">
             <h2>Contact Us</h2>
@@ -16,9 +24,8 @@ export default function Footer() {
             </p>
             <p>Visit us at:</p>
             <address>
-              <p> 6859 New Hampshire Ave</p>
-              <p>Takoma Park</p>
-              <p>MD 20912</p>
+              <p>6859 New Hampshire Ave</p>
+              <p>Takoma Park, MD 20912</p>
             </address>
           </div>
           <div className="hours">
@@ -53,14 +60,6 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12407.442355396792!2d-76.9948285!3d38.9728512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1d0fa60bbce1688!2sMax%20Life%20Barbershop%20%26%20Salon!5e0!3m2!1sen!2sus!4v1641959135634!5m2!1sen!2sus"
-            width="100%"
-            height="450"
-            loading="lazy"
-          ></iframe>
-        </div>
       </FooterSection>
       <div className="container">
         <p>Max Life Barbershop &copy; {new Date().getFullYear()}</p>
@@ -70,6 +69,9 @@ export default function Footer() {
 }
 
 const FooterSection = styled.footer`
+  .footer {
+    padding: 2rem;
+  }
   background: #111;
   color: #fff;
   padding-top: 2rem;

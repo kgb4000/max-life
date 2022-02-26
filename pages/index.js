@@ -127,6 +127,8 @@ export default function Home() {
   )
 }
 
+// _7bd10abd7978c73008a156639bd4bb1a.maxlifebarbershop.com. CNAME _1320ccf7137cea2945d67ff16548be11.fpkndhgbpx.acm-validations.aws.
+
 const Main = styled.main`
   .review {
     text-align: center;
