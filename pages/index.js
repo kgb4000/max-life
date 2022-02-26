@@ -171,6 +171,7 @@ const Main = styled.main`
     width: 100%;
     height: 708px;
     margin-bottom: 1rem;
+    background-position: center;
 
     h3 {
       color: #fff;

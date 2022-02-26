@@ -62,7 +62,9 @@ export default function Footer() {
         </div>
       </FooterSection>
       <div className="container">
-        <p>Max Life Barbershop &copy; {new Date().getFullYear()}</p>
+        <p className="last-footer">
+          Max Life Barber Shop &copy; {new Date().getFullYear()}
+        </p>
       </div>
     </>
   )
