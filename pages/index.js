@@ -17,23 +17,32 @@ export default function Home() {
           <div className="container">
             <h2>Max Life Barbershop</h2>
             <p>
-              Max Life barbershop is a family-run business located in Tacoma
+              Max Life barbershop is a family-run business located in Takoma
               Park, Maryland next to Belford Towers. The shop is owned and
-              operated by Master barber Gene Brown. After working as a barber
-              for multiple high-end salons, Gene wanted to create a comfortable
-              environment that catered to men&apos;s and boys&apos; hair
-              grooming needs.
+              operated by Master Barber Gene Brown.
             </p>
             <p>
-              Max Life originally opened on October 1, 2021. The business is
-              located opposite the Pine tree ski lodge-inspired movie theatre,
-              Brewvies Cinema Pub.
+              After working as a barber for multiple high-end salons, Gene
+              started and created his own comfortable environment that cateres
+              to men&apos;s and boys&apos; hair grooming needs.
+            </p>
+            <p>
+              The barbershop is located in the{' '}
+              <a
+                href="https://www.google.com/maps/dir/38.9545984,-76.8147456/Max+Life+Barbershop+%26+Salon,+New+Hampshire+Avenue,+Chillum,+MD/@38.9834203,-76.9400498,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89b7c7fb14cd200d:0xa1d0fa60bbce1688!2m2!1d-76.9948285!2d38.9728512"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Tokoma Park Shopping Center.
+              </a>
             </p>
             <p>
               The shop&apos;s most popular haircuts are fades, lineups, and
-              men&apos;s party trims. Each of these cuts is tailored to fit a
-              client&apos;s face shape, hair texture, thickness, or thinning
-              problems.
+              men&apos;s party trims.
+            </p>
+            <p>
+              Each of these cuts is tailored to fit a client&apos;s face shape,
+              hair texture, thickness, or thinning problems.
             </p>
             <div className="btn">
               <Button as="a" href={phoneNumber}>
@@ -47,31 +56,31 @@ export default function Home() {
             <h2>Our Services</h2>
             <div className="barber-services">
               <div className="service-1">
-                <h3>Haircut</h3>
+                <h3>Haircuts</h3>
               </div>
               <div className="service-2">
                 <h3>Beard Trim</h3>
               </div>
               <div className="service-3">
-                <h3>Shape up</h3>
+                <h3>Shape-ups</h3>
               </div>
               <div className="service-4">
-                <h3>Shave</h3>
+                <h3>Designs</h3>
               </div>
             </div>
             <div className="btn">
               <Button as="a" href={phoneNumber}>
-                Call to Make an Appointment!
+                Call to for Availability!
               </Button>
             </div>
           </div>
         </section>
         <section>
           <div className="container">
-            <h2>Our Barbers</h2>
+            <h2>Our Professional Barbers</h2>
             <div className="barbers">
               <div className="barber">
-                <img src="../images/gene.jpg" />
+                <img src="../images/gene-the-master-barber.jpg" />
                 <h3>Gene</h3>
                 <div className="btn">
                   <Button as="a" href={phoneNumber}>
@@ -81,7 +90,7 @@ export default function Home() {
               </div>
               <div className="barber">
                 {' '}
-                <img src="../images/gene.jpg" />
+                <img src="../images/bj-the-barber.jpg" />
                 <h3>BJ</h3>
                 <div className="btn">
                   <Button as="a" href={phoneNumber}>
@@ -97,12 +106,13 @@ export default function Home() {
             <h2>Client Reviews</h2>
             <div className="review">
               <p>
-                Max Life barbershop is truely the best. I love the atmosphere,
-                and my barber Gene. Always has me looking my best for the
-                weekend.
+                Max Life Barber Shop is truely the best barbershop in Takoma
+                Park. I love the comfortable atmosphere, the location, and my
+                barber Gene. Gene always has me looking my best for the week and
+                the weekend.
               </p>
-              <img src="../images/gene.jpg" className="avatar" />
-              <p>Kester</p>
+              <img src="../images/kgb4000.webp" className="avatar" />
+              <p>KGB4000</p>
             </div>
             <div className="btn">
               <Button as="a" href={reviews} target="_blank">
@@ -157,10 +167,30 @@ const Main = styled.main`
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
-    border: 1px solid #111;
+    height: 708px;
     margin-bottom: 1rem;
-    border-radius: 10px;
+
+    h3 {
+      color: #fff;
+      font-size: 3rem;
+    }
+  }
+
+  .service-1 {
+    background-image: url(/images/haircuts.jpg);
+    background-size: cover;
+  }
+  .service-2 {
+    background: url(/images/beard-trim.jpg);
+    background-size: cover;
+  }
+  .service-3 {
+    background: url(/images/shape-ups.jpg);
+    background-size: cover;
+  }
+  .service-4 {
+    background: url(/images/designs.jpg);
+    background-size: cover;
   }
 
   section.client-reviews {
@@ -169,14 +199,17 @@ const Main = styled.main`
         rgba(0, 0, 0, 0.52),
         rgba(0, 0, 0, 0.62)
       ),
-      url(../images/barber-hair-designs.jpg);
+      url(/images/barber-hair-designs.jpg);
     background-position: center;
     background-size: cover;
-    height: 30rem;
     color: #fff;
     text-align: center;
     padding: 4rem 0;
     margin-bottom: 0;
+
+    p {
+      font-size: 1.2rem;
+    }
   }
 
   .avatar {
@@ -185,7 +218,7 @@ const Main = styled.main`
     border: 2px solid #feca57;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 600px) {
     .barber-services {
       display: flex;
       flex-flow: wrap;

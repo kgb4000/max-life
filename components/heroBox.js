@@ -9,8 +9,8 @@ export default function Hero() {
     <HeroBox>
       <div className="container">
         <h1 className="name">Max Life Barbershop</h1>
-        <h1>Best Barbershop Tacoma Park MD</h1>
-        <p>Walk In&apos;s Welcome</p>
+        <h1>Best Barbershop Takoma Park MD</h1>
+        <p>Walk-in&apos;s Always Welcome</p>
         <a className="btn" href={phoneNumber}>
           <HeroButton>Call {phone}</HeroButton>
         </a>
@@ -51,6 +51,7 @@ const HeroButton = styled(Button)`
   background-color: #feca57;
   color: #111;
   transition: background-color 1s;
+  font-weight: 700;
 
   &:hover {
     background: rgba(255, 255, 255, 0.5);

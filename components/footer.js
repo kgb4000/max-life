@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <FooterSection>
-        <div className="container">
+        <div className=" footer container">
           <div className="contact">
             <h2>Contact Us</h2>
             <p>Have a question about a service?</p>
@@ -81,5 +81,12 @@ const FooterSection = styled.footer`
   .contact,
   .hours {
     margin-bottom: 2rem;
+  }
+
+  @media (min-width: 700px) {
+    .footer {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 `

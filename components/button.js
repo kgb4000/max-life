@@ -8,6 +8,8 @@ const Button = styled.div`
   display: inline-block;
   margin: 2rem 0;
   border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
 `
 
 export default Button
