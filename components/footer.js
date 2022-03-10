@@ -32,27 +32,27 @@ export default function Footer() {
             <h2>Hours</h2>
             <p>
               <span className="day">Monday: </span>
-              <span className="time">9:00am - 6:00pm</span>
+              <span className="time">11:00am - 7:30pm</span>
             </p>
             <p>
               <span className="day">Tuesday: </span>
-              <span className="time">9:00am - 6:00pm</span>
+              <span className="time">11:00am - 7:30pm</span>
             </p>
             <p>
               <span className="day">Wednesday: </span>
-              <span className="time">9:00am - 6:00pm</span>
+              <span className="time">11:00am - 7:30pm</span>
             </p>
             <p>
               <span className="day">Thursday: </span>
-              <span className="time">9:00am - 6:00pm</span>
+              <span className="time">11:00am - 7:30pm</span>
             </p>
             <p>
               <span className="day">Friday: </span>
-              <span className="time">9:00am - 6:00pm</span>
+              <span className="time">11:00am - 7:30pm</span>
             </p>
             <p>
               <span className="day">Saturday: </span>
-              <span className="time">9:00am - 6:00pm</span>
+              <span className="time">11:00am - 7:30pm</span>
             </p>
             <p>
               <span className="day">Sunday: </span>

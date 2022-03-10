@@ -15,7 +15,7 @@ export default function Home() {
       <Main>
         <section>
           <div className="container">
-            <h2>Max Life Barbershop</h2>
+            <h2>Max Life Barber Shop</h2>
             <p>
               Max Life barbershop is a family-run business located in Takoma
               Park, Maryland next to Belford Towers. The shop is owned and
@@ -29,11 +29,11 @@ export default function Home() {
             <p>
               The barbershop is located in the{' '}
               <a
-                href="https://www.google.com/maps/dir/38.9545984,-76.8147456/Max+Life+Barbershop+%26+Salon,+New+Hampshire+Avenue,+Chillum,+MD/@38.9834203,-76.9400498,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89b7c7fb14cd200d:0xa1d0fa60bbce1688!2m2!1d-76.9948285!2d38.9728512"
+                href="https://www.google.com/maps/dir//Max+Life+Barbershop+%26+Salon,+6859+New+Hampshire+Ave,+Takoma+Park,+MD+20912/@38.9833418,-77.0451147,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89b7c7fb14cd200d:0xa1d0fa60bbce1688!2m2!1d-76.9948285!2d38.9728512"
                 target="_blank"
                 rel="noreferrer"
               >
-                Tokoma Park Shopping Center.
+                Takoma Park Shopping Center.
               </a>
             </p>
             <p>
