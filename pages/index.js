@@ -23,8 +23,8 @@ export default function Home() {
             </p>
             <p>
               After working as a barber for multiple high-end salons, Gene
-              started and created his own comfortable environment that cateres
-              to men&apos;s and boys&apos; hair grooming needs.
+              started and created his own comfortable environment that caters to
+              men&apos;s and boys&apos; hair grooming needs.
             </p>
             <p>
               The barbershop is located in the{' '}
